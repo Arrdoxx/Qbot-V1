@@ -1,0 +1,34 @@
+{
+    "token": "[VOTRE TOKEN]",
+    "prefix": "[VOTRE PREFIX]",
+    "greeting": {
+        "channel": "[ID CHANNEL ARRIVE]"
+        },
+
+    "reactionRole": {
+        "[MESSAGEID]": {
+            "removable": true,
+            "emojis": [{
+                "name": "👨",
+                "roles": "[ROLEID]"
+            }, {
+                "name": "👩",
+                "roles": "[ROLEID]"
+            }, {
+                "name": "❓",
+                "roles": "[ROLEID]"
+            }]
+        },
+       "[MESSAGEID]": {
+            "removable": true,
+            "emojis": [{
+                "name": "🚬",
+                "roles": "[ROLEID]"
+            }, {
+                "name": "🔞",
+                "roles": "[ROLEID]"
+            }]
+        }
+    }
+
+}
